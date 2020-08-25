@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
+
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;	
+}
+
+body {
+	background-color: #525659;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: black;
+}
+
+header {
+	height: 20%;
+	margin: 0 0 15px 0;
+}
+
+header .title {
+	font-weight: 800;
+	font-size: 58px;
+	letter-spacing: 3px;
+    color: #555555;
+}
+
+header .subtitle {
+	font-weight: 400;
+	font-size: 18px;
+    margin: 10px 0 3px 0;
+    font-style: italic;
+}
+
+h2 {
+	display: inline-block;
+	color: #555555;
+	padding-right: 25px;
+	background: white;
+	font-size: 22px;
+	font-weight: 700;
+	position: relative;
+	top: -15px;
+}
+
+main {
+	height: 95%;
+}
+
+.container  {
+	padding: 45px;
+	background-color: white;
+	position: relative;
+	top: 5px;
+	margin: 0 auto 8px;
+	height:100%;
+	width: 99%;
+	max-width: 2000px;
+	-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+.principal {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+
+}
+
+.sectionPhoto {
+	border-top: 1px solid #cccccc;
+    margin: 5%;
+}
+
+.dayCat img {
+    width: 100%;
+}
+
+.figcaption {
+    font-size: .3 em;
+}
+
+.lista_datos p {
+    background: rgba(128, 128, 128, 0.521);
+    color: white;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.lista_datos ul {
+    padding: 2px 0 10px 2px;
+}
+
+.column_two {
+	margin: 5%;
+    font-size: 13px;    
+}
+
+.column_two li {
+    margin-left: 25px;
+    line-height: 2em;
+}
+
+.column_two li span {
+	position: relative;
+	left: -5px;
+}
+
+
+.column_three h2 {
+    margin-top: 40px;
+}
+
+footer {
+	height: 5%;
+    background: #9961b3;
+    color: white;
+    font-size: 13px;
+    margin: 18px 0 15px;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+footer p {
+	font-weight: 300;
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+footer b {
+	color: white;
+}
+
+@media (max-width: 768px) {
+
+h2 {
+    margin-top: 25px;
+}
+ 
+header {
+    text-align: center;
+}
+
+header .name {
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.container {
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+}
+
+.principal { 
+	display: block;
+}
+
+.column_two {
+	margin: 0 0 0 0; 
+}
+
+
+}
