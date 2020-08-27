@@ -40,7 +40,7 @@ h2 {
 	font-size: 22px;
 	font-weight: 700;
 	position: relative;
-	top: -15px;
+
 }
 
 main {
@@ -64,7 +64,10 @@ main {
 .principal {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+}
 
+.principal h2 {
+	top: -15px;
 }
 
 .sectionPhoto {
@@ -105,11 +108,80 @@ main {
 	position: relative;
 	left: -5px;
 }
-
-
 .column_three h2 {
     margin-top: 40px;
 }
+
+
+.info {
+	display: grid;
+	grid-template-columns: 1fr 2fr;	
+	grid-column-gap: 1em;
+	
+}
+
+.info h2{
+	margin-bottom: 5px;
+}
+.info p {
+	margin-bottom: 15px;
+}
+
+
+
+.column1 img {
+	max-width: 300px;
+}
+
+.column1 {
+
+	text-justify: auto;
+}
+
+.column2 img {
+	width: 300px;
+}
+
+.column2 {
+
+	width: 100%;	
+}
+
+
+.column3 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;	
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+  }
+  
+  /* Style table headers and table data */
+  th, td {
+	text-align: center;
+	padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+	text-align: left;
+  }
+  
+  /* Zebra-striped table rows */
+  tr:nth-child(even) {
+	background-color: #f2f2f2
+  }
+  
+  .fa-check {
+	color: green;
+  }
+  
+  .fa-remove {
+	color: red;
+  }
 
 footer {
 	height: 5%;
@@ -133,6 +205,8 @@ footer b {
 }
 
 @media (max-width: 768px) {
+
+
 
 h2 {
     margin-top: 25px;
@@ -161,6 +235,19 @@ header .name {
 .column_two {
 	margin: 0 0 0 0; 
 }
+
+.info { 
+	display: block;
+}
+
+.column2 {
+	margin: 0 0 0 0; 
+}
+
+.tableCat {
+	display: none;
+}
+
 
 
 }
