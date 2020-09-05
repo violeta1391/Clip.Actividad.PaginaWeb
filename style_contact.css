@@ -4,10 +4,14 @@
 
 body {
     margin: 0;
-    font-family: Arial;
+
     font-size: 17px;
 }
 
+h2 {
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(44, 40, 40);
+}
 
 /* Nav */
 
@@ -57,6 +61,7 @@ body {
 }
 
 #contact{
+
     position: absolute;
     margin: 90px 200px 45px -20px;
 	padding: 25px;
