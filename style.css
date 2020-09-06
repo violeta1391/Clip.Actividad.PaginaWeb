@@ -70,13 +70,14 @@ p {
 
 }
 
-#myVideo {
+.myVideo {
     right: 0;
     bottom: 0;
     width: 100%;
     height: 50%;
 
 }
+
 
 #myBtn {
     width: 200px;
@@ -232,15 +233,17 @@ tr:nth-child(even) {
 	width: 250px;
 }
 
+/* Cards */
 
-/* Carousel */
-
-#carousel_img img {
-	width: 100%!important;
+.adopted h2 {
+	font-family: 'Paytone One', sans-serif;
+	text-align: center;
+	margin: 40px 0 -20px 0px;
+	font-size: 4em;
 }
 
-#carousel img {
-	max-width: 100%;
+.card-deck {
+	padding: 80px;
 }
 
 
@@ -267,7 +270,6 @@ tr:nth-child(even) {
 	  margin-right: 10px;
   }
 
-
   
 /* Riddle */	
 
@@ -276,7 +278,7 @@ tr:nth-child(even) {
 	position: absolute;
 	z-index: 250;
 	background-color: rgba(255, 255, 255, 0.74);
-	padding: 300px 25px 500px 25px;
+	padding: 300px 25px 300px 25px;
   }
 
   .riddle h2 {
@@ -289,32 +291,17 @@ tr:nth-child(even) {
 	font-family: 'Paytone One', sans-serif;
 	color: #007bff;
   }
-
-
-
+  
 
 @media (max-width: 768px) {
+
+h2 {
+	margin-top: 25px;
+}
 
 .titulo_principal {
 	padding-top: 25px;
 	font-size: 35px;
-}
-
-.carousel_img {
-	max-width: 350px;
-}
-
-
-h2 {
-    margin-top: 25px;
-}
-
-#listaDatos h3 {
-	margin-top: 0; 
-}
-.button {
-	display: block;
-	width: 100%;
 }
 
 .imgInfo1 img {
@@ -334,12 +321,14 @@ h2 {
 	display: none;
 }
 
-.dayCat img {
-	padding: 15px;
-}
+/* Cards */
 
-#fig_dayCat {
-	display: none;
+.adopted h2 {
+	margin: 50px 0 20px 0;
+	font-size: 2em;
+}
+.card-deck {
+	padding: 10px;
 }
 
 /* footer */
@@ -365,19 +354,19 @@ h2 {
 	justify-content: center;
 }  
 
-
   
+
 /* Riddle */	
 
 #myVideo {
-	display:none; 
+	display: none;
 }
 
 .riddle {
 	margin: 65px 0 0 25px; 
 	padding-top: 85px;
 	text-align: center;
-  }
+}
 
 
 }
