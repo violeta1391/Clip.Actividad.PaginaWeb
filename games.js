@@ -16,12 +16,12 @@ function funLetsPlay() {
 
     let answerRight = "nose";
     let chance = 4;
-    var success = false;
-    var answer;
+    let success = false;
+    let answer;
 
     while (chance > 0 && success == false) {
         chance--;
-        answer = prompt("You have " + chance + " try to hit");
+        answer = prompt("You have " + chance + " try to hit").toLowerCase();
         if (answer == answerRight) {
             alert("Congratulations!! your answer is correct. You are a true fan of cats!!");
             success = true;
@@ -39,7 +39,7 @@ function funLetsPlay() {
                     alert("Clue three: Neither are their legs")
                     break;
                 default:
-                    alert("You lost your last chance, try again!");
+                    alert("You lost your last chance, the correct answer is nose");
             }
         }
     }

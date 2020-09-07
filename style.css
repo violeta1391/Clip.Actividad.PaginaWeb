@@ -1,6 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 
-:root{--blue:#007bff; --info:#17a2b8; --indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107; --green: #28a745; }
+:root{
+	--blue:#007bff; 
+	--info:#17a2b8; 
+	--indigo:#6610f2;
+	--purple:#6f42c1;
+	--pink:#e83e8c;
+	--red:#dc3545;
+	--orange:#fd7e14;
+	--yellow:#ffc107; 
+	--green: #28a745; 
+}
 
 
 * {
@@ -110,37 +120,6 @@ p {
 	font-family: 'Paytone One', sans-serif;
 }
 
-.sectionPhoto {
-	border-top: 1px solid #cccccc;
-    margin: 5%;
-}
-
-.dayCat img {
-    width: 100%;
-}
-
-.figcaption {
-    font-size: .3 em;
-}
-
-#listaDatos {
-	text-align: center;
-}
-
-#listaDatos h3 {
-    background: rgba(128, 128, 128, 0.521);
-    color: white;
-    padding: 10px;
-	margin-top: 60px;
-}
-
-.lista_datos li {
-	line-height : 35px;
-	list-style-type: none;
-	cursor: pointer;
-
-}
-
 .info {
 	display: grid;
 	grid-template-columns: 1fr 2fr;	
@@ -162,25 +141,6 @@ p {
 	max-width: 350px;
 }
 
-.botones-verdes {
-	width: 100%;
-	height: 48px;
-	background:  rgba(128, 128, 128, 0.521);
-	font-size: 16px;
-	text-align: center;
-	line-height: 22px;
-	cursor: pointer;
-	border-color: #d4c9da;
-}
-
-.botones-verdes a {
-	color: white;
-}
-  
-.botones-verdes:hover {
-	background-image: linear-gradient(to right, #80ddc7c0, #636391);
-
-} 
 .column2 img {
 	width: 300px;
 }
@@ -232,6 +192,7 @@ tr:nth-child(even) {
 	margin-top: 50px;
 	width: 250px;
 }
+
 
 /* Cards */
 
@@ -292,6 +253,8 @@ tr:nth-child(even) {
 	color: #007bff;
   }
   
+
+
 
 @media (max-width: 768px) {
 
